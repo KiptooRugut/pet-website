@@ -1,0 +1,119 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo__img {
+  height: 150px;
+}
+
+.logo__name {
+  font-size: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 0.5;
+}
+
+.nav__item {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+
+  border: 1px solid black;
+  padding: 4px 10px;
+}
+
+.nav__item:hover {
+  background-color: #ccc;
+}
+
+.nav__item:active {
+  transform: scale(0.9);
+}
+
+.section__heading {
+  font-size: 35px;
+  font-style: italic;
+  font-family: Geneva;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.animals {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 10px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.animal {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+
+  /* border: 1px solid black; */
+
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 40px;
+
+  box-shadow: 1px 10px 14px 0px rgba(0, 0, 0, 0.55);
+}
+
+.animal__img {
+  height: 350px;
+}
+
+.animal__title {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin: 10px 2px;
+}
+
+.animal__desc {
+  font-size: 20px;
+}
+
+/* Add a black background color to the top navigation
+.head1{
+    font-size: 60px;
+    font-style: italic;
+    float: left;
+}
+.topnav {
+  background-color: rgb(240, 187, 108);
+  font-size: xx-large;
+  overflow: hidden;
+  }
+.row{
+    display: flex;
+}
+.animals{
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    text-align: justify;
+    margin: 5%;
+    border: 1px solid burlywood;
+}
+.animals .Dogs{   
+border: 1px burlywood;
+display: flex;
+margin: 10px;
+grid-template-rows: repeat(2);
+grid-template-columns: repeat(2);
+row-gap: 50%;
+} */
